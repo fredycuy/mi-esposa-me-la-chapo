@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kay x aylin</title>
+  <link rel="shortcut icon" href="img/icon.jpg">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="Mystyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<header>
+  <nav id="navbar-ex" class="navbar navbar-dark bg-custom px-3 mb-3 fixed-top ">
+    <a class="navbar-brand" href="#">
+      <img src="img/icon.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+      Inicio
+    </a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">nosotros ⚔️🖤</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Gracias!</a>
+      </li>
+
+    </ul>
+  </nav>
+</header>
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+  <div class="prueba">
+    <div class="container-title">
+      <h1 class="color-font">t'estimo la meva dona preciosa t'adoro amb tot el meu cor perdó si no és millor regal </h1>
+    </div>
+    <div class="container-title">
+      <h5 class="color-font">Casemonos y tengamos 2 gatos</h5>
+    </div>
+  </div>
+  
+
+  <section id="scrollspyHeading1">
+    <div class=" container-second-Mu">
+      <h1 class="color-font">nosotros ⚔️🖤</h1>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="Cards/1primerafoto.jpg" class="card-img-top" alt="example">
+          <div class="card-body">
+            <p class="card-text">la mujer mas preciosa del mundo me quiero casar con ella</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Cards/2PrimerAÑo.jpg" class="card-img-top" alt="example">
+          <div class="card-body">
+            <p class="card-text">dios como la amo</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Cards/3gatofoto.jpg" class="card-img-top" alt="example">
+          <div class="card-body">
+            <p class="card-text">a la bestia que pro la top # 1</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Cards/4SanguchesFiabre.jpg" class="card-img-top" alt="example">
+          <div class="card-body">
+            <p class="card-text">esos ojos son tan hermosos que puedo ver tu puresa y tu inocencia en ellos me encanta cada parte de ti quisiera que vivamos toda la vida juntos
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="Cards/5graduada.JPG" class="card-img-top" alt="example">
+          <div class="card-body">
+            <p class="card-text">la llamada mas especial que hemos tenido.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Cards/6arribatecho.jpg" class="card-img-top" alt="example">
+          <div class="card-body">
+            <p class="card-text">los mas emos de su casa(el uno pa el otro).
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Cards/7colonrojo.jpg" class="card-img-top" alt="example">
+          <div class="card-body">
+            <p class="card-text">yo ese
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Cards/8ViajeLp.jpg" class="card-img-top" alt="example">
+          <div class="card-body">
+            <p class="card-text">yo x2
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="scrollspyHeading2">
+    <div class="container">
+      <div class="container-gracias">
+        <h2 class="color-font">Gracias por ser la mujer de mi vida</br> t'estimo </h2>
+      </div>
+      <div class="container-lista">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Gracias por darme los mejores dias de mi vida</li>
+          <li class="list-group-item">Gracias por confiar en mi para poder contruir nuestras vidas juntos</li>
+          <li class="list-group-item">Gracias por poder vivir, por existir y por elegirme</li>
+          <li class="list-group-item">Gracias por dejarme acompañerte en tus logros y en tus momentos especiales </li>
+          <li class="list-group-item">Y ojala poder hacer muchisimos mas viajes junto a vos y tus hermosas energias</li>
+
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+  <script src="js/bootstrap.min.js"></script>
+  <footer class="footer">
+    <div class="container-f">
+      <p class="text-center">Espero que te haya gustado preciosa, perdon por tardar tanto</p>
+    </div>
+  </footer>
+  <script>
+    $('a').on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+          window.location.hash = hash;
+        });
+      }
+    });
+  </script>
+
+
+</body>
+
+
+</html>
